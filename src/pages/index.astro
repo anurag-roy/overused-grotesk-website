@@ -1,5 +1,8 @@
 ---
 import '../index.css';
+
+const downloadLink =
+  'https://github.com/RandomMaerks/Overused-Grotesk/releases/download/v0.2/OverusedGrotesk-v0.2.zip';
 ---
 
 <html lang="en">
@@ -10,7 +13,27 @@ import '../index.css';
     <meta name="generator" content={Astro.generator} />
     <title>Overused Grotesk</title>
   </head>
-  <body>
-    <h1 class="font-medium">Overused Grotesk</h1>
+  <body class="bg-dark text-white p-8">
+    <header
+      class="w-full rounded-full border-white border-2 flex justify-between items-center p-2 uppercase font-regular"
+    >
+      <span class="px-2 text-lg"> Overused Grotesk</span>
+      <a href={downloadLink} class="rounded-full bg-white text-dark px-4 pb-0.5"
+        >Download</a
+      >
+    </header>
+    <main>
+      <hgroup class="py-12">
+        <h1 class="text-9xl text-center font-light leading-[6rem] mb-8">
+          Overused<br />Grotesk
+        </h1>
+        <p
+          class="rounded-full w-fit mx-auto border-white border-2 text-2xl font-bold px-8 py-1.5 pb-2"
+        >
+          A classic neo-grotesk typeface
+        </p>
+      </hgroup>
+      <hr class="border-[#555555]" />
+    </main>
   </body>
 </html>
