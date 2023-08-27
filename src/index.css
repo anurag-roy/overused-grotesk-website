@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'OverusedGrotesk-VF';
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/OverusedGrotesk-VF.ttf') format('ttf');
+}
