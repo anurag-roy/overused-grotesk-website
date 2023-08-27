@@ -7,6 +7,7 @@ export default {
     extend: {
       colors: {
         dark: '#1a1a1a',
+        grey: '#555555',
       },
       fontWeight: {
         book: '350',
