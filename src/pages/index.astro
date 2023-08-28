@@ -1,4 +1,5 @@
 ---
+import Tester from '../components/Tester.svelte';
 import '../index.css';
 
 const downloadLink =
@@ -34,6 +35,7 @@ const downloadLink =
         </p>
       </hgroup>
       <hr class="border-grey" />
+      <Tester client:load twoCol={true} />
     </main>
   </body>
 </html>
